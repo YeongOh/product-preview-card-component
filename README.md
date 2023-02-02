@@ -1,4 +1,4 @@
-[LiveDemo](https://yeongoh.github.io/product-preview-card-component/)
+##[Live Demo](https://yeongoh.github.io/product-preview-card-component/)
 
 # Frontend Mentor - Product preview card component solution
 
