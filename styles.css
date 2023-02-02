@@ -38,7 +38,7 @@ body {
 }
 
 .image {
-  width: 50%;
+  max-width: 50%;
 }
 
 .card__content {
