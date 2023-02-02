@@ -98,6 +98,8 @@ body {
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .card__button:hover {
@@ -108,20 +110,41 @@ body {
   font-size: 0.5rem;
 }
 
+.image-mobile {
+  display: none;
+}
+
 @media screen and (max-width: 600px) {
   .card {
     flex-direction: column;
     width: 21.5rem;
   }
 
-  .image {
+  .card__content {
+    gap: 0.8rem;
+  }
+
+  /* .image {
     object-fit: cover;
     object-position: 50% 45%;
     width: 100%;
     max-height: 15rem;
+  } */
+
+  .image {
+    display: none;
+  }
+
+  .image-mobile {
+    display: block;
+    width: 100%;
   }
 
   .card__title {
     font-size: 2rem;
+  }
+
+  .card__p {
+    font-size: 0.86rem;
   }
 }

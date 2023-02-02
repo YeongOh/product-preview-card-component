@@ -46,6 +46,8 @@ Users should be able to:
 - I should set up font-size and color variables in the beginning of the next project. If some text's size was not right, I usually had to change other text sizes as well and it was time consuming.
 - I had a hard time tryring to crop the image in mobile. When the container is in column flex direction, it has 100% height just like row flex direction has 100% width. So no matter what I set image's height to, I could not adjust the height. The fix was setting width = 100% and max-height to some rem value. The image will be crushed to match fixed height, then use the object-fit: cover to fix the ratio and use object-position to locate the content of the image.
 
+- I realized later there was a mobile image.
+
 ```css
     object-fit: cover;
     object-position: 50% 45%;

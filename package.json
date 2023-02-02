@@ -1,0 +1,22 @@
+{
+  "name": "product-preview-card-component",
+  "version": "1.0.0",
+  "description": "This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YeongOh/product-preview-card-component.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YeongOh/product-preview-card-component/issues"
+  },
+  "homepage": "https://github.com/YeongOh/product-preview-card-component#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
